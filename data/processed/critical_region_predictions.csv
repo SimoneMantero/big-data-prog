@@ -1,0 +1,85 @@
+Territorio,REF_AREA,year,model,actual_critical,predicted_critical,critical_probability,actual_unemployment_rate
+Piemonte,ITC1,2024,Logistic Regression,0,0,0.04687834924593485,5.495734
+Piemonte,ITC1,2025,Logistic Regression,1,0,0.027571308667598375,6.164193
+Valle d'Aosta,ITC2,2024,Logistic Regression,0,0,0.022502950493177902,3.928906
+Valle d'Aosta,ITC2,2025,Logistic Regression,0,0,0.032358627538952175,3.914399
+Liguria,ITC3,2024,Logistic Regression,1,0,0.32569168989575703,5.516883
+Liguria,ITC3,2025,Logistic Regression,0,0,0.3930492067068888,4.710665
+Lombardia,ITC4,2024,Logistic Regression,0,0,0.011330988508455455,3.738833
+Lombardia,ITC4,2025,Logistic Regression,0,0,0.011824674830179169,3.005698
+Bolzano,ITD1,2024,Logistic Regression,0,0,0.01669585788499976,1.990011
+Bolzano,ITD1,2025,Logistic Regression,0,0,0.022795709404500302,1.761196
+Trento,ITD2,2024,Logistic Regression,0,0,0.02930536535213272,2.787277
+Trento,ITD2,2025,Logistic Regression,0,0,0.01411743667438215,2.302378
+Veneto,ITD3,2024,Logistic Regression,0,0,0.02095412892311644,3.01116
+Veneto,ITD3,2025,Logistic Regression,0,0,0.011328717365718709,3.506283
+Friuli-Venezia Giulia,ITD4,2024,Logistic Regression,0,0,0.04068490085556001,4.442742
+Friuli-Venezia Giulia,ITD4,2025,Logistic Regression,0,0,0.04655992966118329,4.684697
+Emilia-Romagna,ITD5,2024,Logistic Regression,0,0,0.03920779300431635,4.405441
+Emilia-Romagna,ITD5,2025,Logistic Regression,0,0,0.028869506611646157,4.158524
+Toscana,ITE1,2024,Logistic Regression,0,0,0.03312504110500422,4.07298
+Toscana,ITE1,2025,Logistic Regression,0,0,0.025596629348582166,4.387398
+Umbria,ITE2,2024,Logistic Regression,0,0,0.03220725184294998,4.928276
+Umbria,ITE2,2025,Logistic Regression,0,0,0.024737880490300693,4.65474
+Marche,ITE3,2024,Logistic Regression,0,0,0.030745082841321898,5.194253
+Marche,ITE3,2025,Logistic Regression,0,0,0.04104890644399629,5.290068
+Lazio,ITE4,2024,Logistic Regression,1,0,0.4264285218121026,6.402663
+Lazio,ITE4,2025,Logistic Regression,1,1,0.5005000081112015,5.680821
+Abruzzo,ITF1,2024,Logistic Regression,1,1,0.6230111592248988,7.212742
+Abruzzo,ITF1,2025,Logistic Regression,1,1,0.7152923787534341,6.762283
+Molise,ITF2,2024,Logistic Regression,1,1,0.7809564313031051,8.068182
+Molise,ITF2,2025,Logistic Regression,1,1,0.7422670453291664,6.356495
+Campania,ITF3,2024,Logistic Regression,1,1,0.998747294989077,15.898401
+Campania,ITF3,2025,Logistic Regression,1,1,0.996341055891928,14.251343
+Puglia,ITF4,2024,Logistic Regression,1,1,0.9411234302672082,9.463074
+Puglia,ITF4,2025,Logistic Regression,1,1,0.8650635923455274,10.27324
+Basilicata,ITF5,2024,Logistic Regression,1,1,0.605443747119959,6.943007
+Basilicata,ITF5,2025,Logistic Regression,1,1,0.6093102033466941,5.510016
+Calabria,ITF6,2024,Logistic Regression,1,1,0.9980989793701431,13.419249
+Calabria,ITF6,2025,Logistic Regression,1,1,0.9940504272886171,10.210476
+Sicilia,ITG1,2024,Logistic Regression,1,1,0.9979353722522004,13.290176
+Sicilia,ITG1,2025,Logistic Regression,1,1,0.9908170795647167,12.477971
+Sardegna,ITG2,2024,Logistic Regression,1,1,0.8471524318652486,8.52196
+Sardegna,ITG2,2025,Logistic Regression,1,1,0.6929244291453407,9.532401
+Piemonte,ITC1,2024,Random Forest Classifier,0,0,0.060218695160981495,5.495734
+Piemonte,ITC1,2025,Random Forest Classifier,1,0,0.05857284752886069,6.164193
+Valle d'Aosta,ITC2,2024,Random Forest Classifier,0,0,0.0749273370266422,3.928906
+Valle d'Aosta,ITC2,2025,Random Forest Classifier,0,0,0.07895935209255558,3.914399
+Liguria,ITC3,2024,Random Forest Classifier,1,0,0.19918964481927293,5.516883
+Liguria,ITC3,2025,Random Forest Classifier,0,0,0.19669764334099826,4.710665
+Lombardia,ITC4,2024,Random Forest Classifier,0,0,0.0994292318462177,3.738833
+Lombardia,ITC4,2025,Random Forest Classifier,0,0,0.0994292318462177,3.005698
+Bolzano,ITD1,2024,Random Forest Classifier,0,0,0.06392595320132288,1.990011
+Bolzano,ITD1,2025,Random Forest Classifier,0,0,0.06392595320132288,1.761196
+Trento,ITD2,2024,Random Forest Classifier,0,0,0.053107554162556005,2.787277
+Trento,ITD2,2025,Random Forest Classifier,0,0,0.05523658642062052,2.302378
+Veneto,ITD3,2024,Random Forest Classifier,0,0,0.09216181763968895,3.01116
+Veneto,ITD3,2025,Random Forest Classifier,0,0,0.09158019271205806,3.506283
+Friuli-Venezia Giulia,ITD4,2024,Random Forest Classifier,0,0,0.09382621135862322,4.442742
+Friuli-Venezia Giulia,ITD4,2025,Random Forest Classifier,0,0,0.10085126241620541,4.684697
+Emilia-Romagna,ITD5,2024,Random Forest Classifier,0,0,0.0715409534590285,4.405441
+Emilia-Romagna,ITD5,2025,Random Forest Classifier,0,0,0.08266365627785285,4.158524
+Toscana,ITE1,2024,Random Forest Classifier,0,0,0.07303721704751459,4.07298
+Toscana,ITE1,2025,Random Forest Classifier,0,0,0.07303721704751459,4.387398
+Umbria,ITE2,2024,Random Forest Classifier,0,0,0.055199885606368994,4.928276
+Umbria,ITE2,2025,Random Forest Classifier,0,0,0.05627708724891128,4.65474
+Marche,ITE3,2024,Random Forest Classifier,0,0,0.104383558815747,5.194253
+Marche,ITE3,2025,Random Forest Classifier,0,0,0.1048301939686123,5.290068
+Lazio,ITE4,2024,Random Forest Classifier,1,0,0.3088328044723884,6.402663
+Lazio,ITE4,2025,Random Forest Classifier,1,0,0.26678430567146655,5.680821
+Abruzzo,ITF1,2024,Random Forest Classifier,1,0,0.3190785819938171,7.212742
+Abruzzo,ITF1,2025,Random Forest Classifier,1,0,0.2593716316803494,6.762283
+Molise,ITF2,2024,Random Forest Classifier,1,1,0.6060655582996661,8.068182
+Molise,ITF2,2025,Random Forest Classifier,1,0,0.3660209851287878,6.356495
+Campania,ITF3,2024,Random Forest Classifier,1,1,0.8640882848480372,15.898401
+Campania,ITF3,2025,Random Forest Classifier,1,1,0.8202873419499528,14.251343
+Puglia,ITF4,2024,Random Forest Classifier,1,1,0.9669313440511029,9.463074
+Puglia,ITF4,2025,Random Forest Classifier,1,1,0.8953038699228196,10.27324
+Basilicata,ITF5,2024,Random Forest Classifier,1,0,0.2664239096805244,6.943007
+Basilicata,ITF5,2025,Random Forest Classifier,1,0,0.2087728230001209,5.510016
+Calabria,ITF6,2024,Random Forest Classifier,1,1,0.9450621374644271,13.419249
+Calabria,ITF6,2025,Random Forest Classifier,1,1,0.9441097565120461,10.210476
+Sicilia,ITG1,2024,Random Forest Classifier,1,1,0.9553244988081872,13.290176
+Sicilia,ITG1,2025,Random Forest Classifier,1,1,0.9422947564214987,12.477971
+Sardegna,ITG2,2024,Random Forest Classifier,1,1,0.8351122817782255,8.52196
+Sardegna,ITG2,2025,Random Forest Classifier,1,0,0.45649388005715885,9.532401

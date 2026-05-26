@@ -1,0 +1,505 @@
+Territorio,REF_AREA,year,target,model,actual,prediction
+Piemonte,ITC1,2024,unemployment_rate,Naive lag-1,5.495734,6.251766
+Piemonte,ITC1,2025,unemployment_rate,Naive lag-1,6.164193,5.495734
+Valle d'Aosta,ITC2,2024,unemployment_rate,Naive lag-1,3.928906,4.087919
+Valle d'Aosta,ITC2,2025,unemployment_rate,Naive lag-1,3.914399,3.928906
+Liguria,ITC3,2024,unemployment_rate,Naive lag-1,5.516883,6.258549
+Liguria,ITC3,2025,unemployment_rate,Naive lag-1,4.710665,5.516883
+Lombardia,ITC4,2024,unemployment_rate,Naive lag-1,3.738833,4.073297
+Lombardia,ITC4,2025,unemployment_rate,Naive lag-1,3.005698,3.738833
+Bolzano,ITD1,2024,unemployment_rate,Naive lag-1,1.990011,1.9939
+Bolzano,ITD1,2025,unemployment_rate,Naive lag-1,1.761196,1.990011
+Trento,ITD2,2024,unemployment_rate,Naive lag-1,2.787277,3.805908
+Trento,ITD2,2025,unemployment_rate,Naive lag-1,2.302378,2.787277
+Veneto,ITD3,2024,unemployment_rate,Naive lag-1,3.01116,4.31134
+Veneto,ITD3,2025,unemployment_rate,Naive lag-1,3.506283,3.01116
+Friuli-Venezia Giulia,ITD4,2024,unemployment_rate,Naive lag-1,4.442742,4.676842
+Friuli-Venezia Giulia,ITD4,2025,unemployment_rate,Naive lag-1,4.684697,4.442742
+Emilia-Romagna,ITD5,2024,unemployment_rate,Naive lag-1,4.405441,5.056649
+Emilia-Romagna,ITD5,2025,unemployment_rate,Naive lag-1,4.158524,4.405441
+Toscana,ITE1,2024,unemployment_rate,Naive lag-1,4.07298,5.376505
+Toscana,ITE1,2025,unemployment_rate,Naive lag-1,4.387398,4.07298
+Umbria,ITE2,2024,unemployment_rate,Naive lag-1,4.928276,6.02392
+Umbria,ITE2,2025,unemployment_rate,Naive lag-1,4.65474,4.928276
+Marche,ITE3,2024,unemployment_rate,Naive lag-1,5.194253,5.303586
+Marche,ITE3,2025,unemployment_rate,Naive lag-1,5.290068,5.194253
+Lazio,ITE4,2024,unemployment_rate,Naive lag-1,6.402663,7.316135
+Lazio,ITE4,2025,unemployment_rate,Naive lag-1,5.680821,6.402663
+Abruzzo,ITF1,2024,unemployment_rate,Naive lag-1,7.212742,8.253192
+Abruzzo,ITF1,2025,unemployment_rate,Naive lag-1,6.762283,7.212742
+Molise,ITF2,2024,unemployment_rate,Naive lag-1,8.068182,9.811314
+Molise,ITF2,2025,unemployment_rate,Naive lag-1,6.356495,8.068182
+Campania,ITF3,2024,unemployment_rate,Naive lag-1,15.898401,17.828049
+Campania,ITF3,2025,unemployment_rate,Naive lag-1,14.251343,15.898401
+Puglia,ITF4,2024,unemployment_rate,Naive lag-1,9.463074,11.808282
+Puglia,ITF4,2025,unemployment_rate,Naive lag-1,10.27324,9.463074
+Basilicata,ITF5,2024,unemployment_rate,Naive lag-1,6.943007,7.716714
+Basilicata,ITF5,2025,unemployment_rate,Naive lag-1,5.510016,6.943007
+Calabria,ITF6,2024,unemployment_rate,Naive lag-1,13.419249,16.213553
+Calabria,ITF6,2025,unemployment_rate,Naive lag-1,10.210476,13.419249
+Sicilia,ITG1,2024,unemployment_rate,Naive lag-1,13.290176,16.060686
+Sicilia,ITG1,2025,unemployment_rate,Naive lag-1,12.477971,13.290176
+Sardegna,ITG2,2024,unemployment_rate,Naive lag-1,8.52196,10.244881
+Sardegna,ITG2,2025,unemployment_rate,Naive lag-1,9.532401,8.52196
+Piemonte,ITC1,2024,unemployment_rate,OLS classica,5.495734,4.967387296355923
+Piemonte,ITC1,2025,unemployment_rate,OLS classica,6.164193,4.277637748713914
+Valle d'Aosta,ITC2,2024,unemployment_rate,OLS classica,3.928906,3.2527243492824027
+Valle d'Aosta,ITC2,2025,unemployment_rate,OLS classica,3.914399,2.783403145232228
+Liguria,ITC3,2024,unemployment_rate,OLS classica,5.516883,5.474609686896088
+Liguria,ITC3,2025,unemployment_rate,OLS classica,4.710665,4.8663441415531
+Lombardia,ITC4,2024,unemployment_rate,OLS classica,3.738833,3.0130039800809527
+Lombardia,ITC4,2025,unemployment_rate,OLS classica,3.005698,2.4584644480650013
+Bolzano,ITD1,2024,unemployment_rate,OLS classica,1.990011,0.6622627607985123
+Bolzano,ITD1,2025,unemployment_rate,OLS classica,1.761196,0.24440759434514803
+Trento,ITD2,2024,unemployment_rate,OLS classica,2.787277,2.438530234809946
+Trento,ITD2,2025,unemployment_rate,OLS classica,2.302378,1.637090379661231
+Veneto,ITD3,2024,unemployment_rate,OLS classica,3.01116,3.0785797510413886
+Veneto,ITD3,2025,unemployment_rate,OLS classica,3.506283,2.2257909834077054
+Friuli-Venezia Giulia,ITD4,2024,unemployment_rate,OLS classica,4.442742,3.4793874225250647
+Friuli-Venezia Giulia,ITD4,2025,unemployment_rate,OLS classica,4.684697,2.901769953565463
+Emilia-Romagna,ITD5,2024,unemployment_rate,OLS classica,4.405441,3.5197162449841244
+Emilia-Romagna,ITD5,2025,unemployment_rate,OLS classica,4.158524,2.849356612928773
+Toscana,ITE1,2024,unemployment_rate,OLS classica,4.07298,4.37137628285052
+Toscana,ITE1,2025,unemployment_rate,OLS classica,4.387398,3.5660331776578005
+Umbria,ITE2,2024,unemployment_rate,OLS classica,4.928276,4.948488306504032
+Umbria,ITE2,2025,unemployment_rate,OLS classica,4.65474,4.145138870554206
+Marche,ITE3,2024,unemployment_rate,OLS classica,5.194253,4.624765756613101
+Marche,ITE3,2025,unemployment_rate,OLS classica,5.290068,4.117587235800215
+Lazio,ITE4,2024,unemployment_rate,OLS classica,6.402663,6.53325396723244
+Lazio,ITE4,2025,unemployment_rate,OLS classica,5.680821,5.881367726228746
+Abruzzo,ITF1,2024,unemployment_rate,OLS classica,7.212742,7.281100992740221
+Abruzzo,ITF1,2025,unemployment_rate,OLS classica,6.762283,6.538661596069005
+Molise,ITF2,2024,unemployment_rate,OLS classica,8.068182,8.531907266821236
+Molise,ITF2,2025,unemployment_rate,OLS classica,6.356495,7.623384351751952
+Campania,ITF3,2024,unemployment_rate,OLS classica,15.898401,16.50599893990966
+Campania,ITF3,2025,unemployment_rate,OLS classica,14.251343,15.471338442632373
+Puglia,ITF4,2024,unemployment_rate,OLS classica,9.463074,11.076301252897792
+Puglia,ITF4,2025,unemployment_rate,OLS classica,10.27324,9.948139915788602
+Basilicata,ITF5,2024,unemployment_rate,OLS classica,6.943007,6.249613993082903
+Basilicata,ITF5,2025,unemployment_rate,OLS classica,5.510016,5.581303860233106
+Calabria,ITF6,2024,unemployment_rate,OLS classica,13.419249,15.591890160658863
+Calabria,ITF6,2025,unemployment_rate,OLS classica,10.210476,14.335349061653687
+Sicilia,ITG1,2024,unemployment_rate,OLS classica,13.290176,15.441969124336879
+Sicilia,ITG1,2025,unemployment_rate,OLS classica,12.477971,14.154168286211075
+Sardegna,ITG2,2024,unemployment_rate,OLS classica,8.52196,9.965304023801991
+Sardegna,ITG2,2025,unemployment_rate,OLS classica,9.532401,8.939623358613403
+Piemonte,ITC1,2024,unemployment_rate,Ridge ML lineare,5.495734,4.784554709992513
+Piemonte,ITC1,2025,unemployment_rate,Ridge ML lineare,6.164193,3.9339890230147603
+Valle d'Aosta,ITC2,2024,unemployment_rate,Ridge ML lineare,3.928906,2.6346246314631285
+Valle d'Aosta,ITC2,2025,unemployment_rate,Ridge ML lineare,3.914399,2.4366098437468375
+Liguria,ITC3,2024,unemployment_rate,Ridge ML lineare,5.516883,4.802414514928137
+Liguria,ITC3,2025,unemployment_rate,Ridge ML lineare,4.710665,4.333985270478158
+Lombardia,ITC4,2024,unemployment_rate,Ridge ML lineare,3.738833,2.6334063578960567
+Lombardia,ITC4,2025,unemployment_rate,Ridge ML lineare,3.005698,2.122961066204211
+Bolzano,ITD1,2024,unemployment_rate,Ridge ML lineare,1.990011,0.551508003002743
+Bolzano,ITD1,2025,unemployment_rate,Ridge ML lineare,1.761196,0.3741661506311349
+Trento,ITD2,2024,unemployment_rate,Ridge ML lineare,2.787277,2.47803457716227
+Trento,ITD2,2025,unemployment_rate,Ridge ML lineare,2.302378,1.396799750041195
+Veneto,ITD3,2024,unemployment_rate,Ridge ML lineare,3.01116,3.2706393963620712
+Veneto,ITD3,2025,unemployment_rate,Ridge ML lineare,3.506283,2.077170143631559
+Friuli-Venezia Giulia,ITD4,2024,unemployment_rate,Ridge ML lineare,4.442742,3.6343098189681644
+Friuli-Venezia Giulia,ITD4,2025,unemployment_rate,Ridge ML lineare,4.684697,3.2519418541462777
+Emilia-Romagna,ITD5,2024,unemployment_rate,Ridge ML lineare,4.405441,3.7976961752345915
+Emilia-Romagna,ITD5,2025,unemployment_rate,Ridge ML lineare,4.158524,3.0027172851215056
+Toscana,ITE1,2024,unemployment_rate,Ridge ML lineare,4.07298,4.224807651418831
+Toscana,ITE1,2025,unemployment_rate,Ridge ML lineare,4.387398,3.2996156759724924
+Umbria,ITE2,2024,unemployment_rate,Ridge ML lineare,4.928276,4.586401617422904
+Umbria,ITE2,2025,unemployment_rate,Ridge ML lineare,4.65474,3.726845949246991
+Marche,ITE3,2024,unemployment_rate,Ridge ML lineare,5.194253,4.298927123994417
+Marche,ITE3,2025,unemployment_rate,Ridge ML lineare,5.290068,4.017783459260796
+Lazio,ITE4,2024,unemployment_rate,Ridge ML lineare,6.402663,5.683984339496302
+Lazio,ITE4,2025,unemployment_rate,Ridge ML lineare,5.680821,5.157638574513201
+Abruzzo,ITF1,2024,unemployment_rate,Ridge ML lineare,7.212742,7.015860662248507
+Abruzzo,ITF1,2025,unemployment_rate,Ridge ML lineare,6.762283,6.464015793370761
+Molise,ITF2,2024,unemployment_rate,Ridge ML lineare,8.068182,8.105591261885053
+Molise,ITF2,2025,unemployment_rate,Ridge ML lineare,6.356495,7.048900672895794
+Campania,ITF3,2024,unemployment_rate,Ridge ML lineare,15.898401,15.867307262464735
+Campania,ITF3,2025,unemployment_rate,Ridge ML lineare,14.251343,14.276187936821543
+Puglia,ITF4,2024,unemployment_rate,Ridge ML lineare,9.463074,10.409707957972252
+Puglia,ITF4,2025,unemployment_rate,Ridge ML lineare,10.27324,8.714585381065238
+Basilicata,ITF5,2024,unemployment_rate,Ridge ML lineare,6.943007,5.869178287228017
+Basilicata,ITF5,2025,unemployment_rate,Ridge ML lineare,5.510016,5.278658009352734
+Calabria,ITF6,2024,unemployment_rate,Ridge ML lineare,13.419249,14.601870987189251
+Calabria,ITF6,2025,unemployment_rate,Ridge ML lineare,10.210476,12.608295167433692
+Sicilia,ITG1,2024,unemployment_rate,Ridge ML lineare,13.290176,14.261206755916092
+Sicilia,ITG1,2025,unemployment_rate,Ridge ML lineare,12.477971,12.174595792917334
+Sardegna,ITG2,2024,unemployment_rate,Ridge ML lineare,8.52196,9.072336943503489
+Sardegna,ITG2,2025,unemployment_rate,Ridge ML lineare,9.532401,7.63838009613868
+Piemonte,ITC1,2024,unemployment_rate,ElasticNet ML lineare,5.495734,4.881934846655826
+Piemonte,ITC1,2025,unemployment_rate,ElasticNet ML lineare,6.164193,3.9653479521585835
+Valle d'Aosta,ITC2,2024,unemployment_rate,ElasticNet ML lineare,3.928906,2.632070106765375
+Valle d'Aosta,ITC2,2025,unemployment_rate,ElasticNet ML lineare,3.914399,2.449024262395344
+Liguria,ITC3,2024,unemployment_rate,ElasticNet ML lineare,5.516883,4.723530181194852
+Liguria,ITC3,2025,unemployment_rate,ElasticNet ML lineare,4.710665,4.266679738113755
+Lombardia,ITC4,2024,unemployment_rate,ElasticNet ML lineare,3.738833,2.809859913097444
+Lombardia,ITC4,2025,unemployment_rate,ElasticNet ML lineare,3.005698,2.3185849386635686
+Bolzano,ITD1,2024,unemployment_rate,ElasticNet ML lineare,1.990011,0.7789098527637002
+Bolzano,ITD1,2025,unemployment_rate,ElasticNet ML lineare,1.761196,0.6161986317844104
+Trento,ITD2,2024,unemployment_rate,ElasticNet ML lineare,2.787277,2.6139880842403187
+Trento,ITD2,2025,unemployment_rate,ElasticNet ML lineare,2.302378,1.458151051608156
+Veneto,ITD3,2024,unemployment_rate,ElasticNet ML lineare,3.01116,3.3710328752106236
+Veneto,ITD3,2025,unemployment_rate,ElasticNet ML lineare,3.506283,2.134503563025083
+Friuli-Venezia Giulia,ITD4,2024,unemployment_rate,ElasticNet ML lineare,4.442742,3.752872363991724
+Friuli-Venezia Giulia,ITD4,2025,unemployment_rate,ElasticNet ML lineare,4.684697,3.3803668359862806
+Emilia-Romagna,ITD5,2024,unemployment_rate,ElasticNet ML lineare,4.405441,3.8841087683002806
+Emilia-Romagna,ITD5,2025,unemployment_rate,ElasticNet ML lineare,4.158524,3.071769352924851
+Toscana,ITE1,2024,unemployment_rate,ElasticNet ML lineare,4.07298,4.280840383883376
+Toscana,ITE1,2025,unemployment_rate,ElasticNet ML lineare,4.387398,3.313579394490243
+Umbria,ITE2,2024,unemployment_rate,ElasticNet ML lineare,4.928276,4.603024841146478
+Umbria,ITE2,2025,unemployment_rate,ElasticNet ML lineare,4.65474,3.701173135205993
+Marche,ITE3,2024,unemployment_rate,ElasticNet ML lineare,5.194253,4.302700494187972
+Marche,ITE3,2025,unemployment_rate,ElasticNet ML lineare,5.290068,4.052502739515981
+Lazio,ITE4,2024,unemployment_rate,ElasticNet ML lineare,6.402663,5.612287792757883
+Lazio,ITE4,2025,unemployment_rate,ElasticNet ML lineare,5.680821,5.098836503914085
+Abruzzo,ITF1,2024,unemployment_rate,ElasticNet ML lineare,7.212742,6.87553419275468
+Abruzzo,ITF1,2025,unemployment_rate,ElasticNet ML lineare,6.762283,6.355294345524051
+Molise,ITF2,2024,unemployment_rate,ElasticNet ML lineare,8.068182,8.121784595275871
+Molise,ITF2,2025,unemployment_rate,ElasticNet ML lineare,6.356495,7.02021840814864
+Campania,ITF3,2024,unemployment_rate,ElasticNet ML lineare,15.898401,15.7245157209334
+Campania,ITF3,2025,unemployment_rate,ElasticNet ML lineare,14.251343,14.035088918362089
+Puglia,ITF4,2024,unemployment_rate,ElasticNet ML lineare,9.463074,10.363040369419185
+Puglia,ITF4,2025,unemployment_rate,ElasticNet ML lineare,10.27324,8.588694195319691
+Basilicata,ITF5,2024,unemployment_rate,ElasticNet ML lineare,6.943007,5.955466762475594
+Basilicata,ITF5,2025,unemployment_rate,ElasticNet ML lineare,5.510016,5.344552705902023
+Calabria,ITF6,2024,unemployment_rate,ElasticNet ML lineare,13.419249,14.420335479267246
+Calabria,ITF6,2025,unemployment_rate,ElasticNet ML lineare,10.210476,12.332592918446082
+Sicilia,ITG1,2024,unemployment_rate,ElasticNet ML lineare,13.290176,14.036417421471125
+Sicilia,ITG1,2025,unemployment_rate,ElasticNet ML lineare,12.477971,11.806345222541816
+Sardegna,ITG2,2024,unemployment_rate,ElasticNet ML lineare,8.52196,8.888091299142307
+Sardegna,ITG2,2025,unemployment_rate,ElasticNet ML lineare,9.532401,7.370172096936929
+Piemonte,ITC1,2024,unemployment_rate,Random Forest,5.495734,5.444218635443326
+Piemonte,ITC1,2025,unemployment_rate,Random Forest,6.164193,4.88717664630971
+Valle d'Aosta,ITC2,2024,unemployment_rate,Random Forest,3.928906,3.5041366300410663
+Valle d'Aosta,ITC2,2025,unemployment_rate,Random Forest,3.914399,3.4120433811363045
+Liguria,ITC3,2024,unemployment_rate,Random Forest,5.516883,5.413506417811578
+Liguria,ITC3,2025,unemployment_rate,Random Forest,4.710665,4.766133152079697
+Lombardia,ITC4,2024,unemployment_rate,Random Forest,3.738833,3.4905080905370975
+Lombardia,ITC4,2025,unemployment_rate,Random Forest,3.005698,3.3983817238847163
+Bolzano,ITD1,2024,unemployment_rate,Random Forest,1.990011,3.121718286795322
+Bolzano,ITD1,2025,unemployment_rate,Random Forest,1.761196,3.121718286795322
+Trento,ITD2,2024,unemployment_rate,Random Forest,2.787277,3.3929367227910667
+Trento,ITD2,2025,unemployment_rate,Random Forest,2.302378,3.359724069822018
+Veneto,ITD3,2024,unemployment_rate,Random Forest,3.01116,3.9785452719070866
+Veneto,ITD3,2025,unemployment_rate,Random Forest,3.506283,3.8548992711023233
+Friuli-Venezia Giulia,ITD4,2024,unemployment_rate,Random Forest,4.442742,4.23060989360911
+Friuli-Venezia Giulia,ITD4,2025,unemployment_rate,Random Forest,4.684697,4.146601015582125
+Emilia-Romagna,ITD5,2024,unemployment_rate,Random Forest,4.405441,4.4181177775584874
+Emilia-Romagna,ITD5,2025,unemployment_rate,Random Forest,4.158524,3.6365403109909225
+Toscana,ITE1,2024,unemployment_rate,Random Forest,4.07298,4.84218639041714
+Toscana,ITE1,2025,unemployment_rate,Random Forest,4.387398,4.16814556110211
+Umbria,ITE2,2024,unemployment_rate,Random Forest,4.928276,5.547506489284956
+Umbria,ITE2,2025,unemployment_rate,Random Forest,4.65474,4.485975039700857
+Marche,ITE3,2024,unemployment_rate,Random Forest,5.194253,4.818455386608413
+Marche,ITE3,2025,unemployment_rate,Random Forest,5.290068,4.82373542357508
+Lazio,ITE4,2024,unemployment_rate,Random Forest,6.402663,6.032226158834023
+Lazio,ITE4,2025,unemployment_rate,Random Forest,5.680821,5.222215165906563
+Abruzzo,ITF1,2024,unemployment_rate,Random Forest,7.212742,7.2417827853572145
+Abruzzo,ITF1,2025,unemployment_rate,Random Forest,6.762283,6.545192486121102
+Molise,ITF2,2024,unemployment_rate,Random Forest,8.068182,8.7891983950127
+Molise,ITF2,2025,unemployment_rate,Random Forest,6.356495,7.386611034250152
+Campania,ITF3,2024,unemployment_rate,Random Forest,15.898401,16.353797431706273
+Campania,ITF3,2025,unemployment_rate,Random Forest,14.251343,14.960743184035643
+Puglia,ITF4,2024,unemployment_rate,Random Forest,9.463074,10.260426028425673
+Puglia,ITF4,2025,unemployment_rate,Random Forest,10.27324,8.854730268913299
+Basilicata,ITF5,2024,unemployment_rate,Random Forest,6.943007,6.8331803582427835
+Basilicata,ITF5,2025,unemployment_rate,Random Forest,5.510016,6.697985045919192
+Calabria,ITF6,2024,unemployment_rate,Random Forest,13.419249,15.241862086814567
+Calabria,ITF6,2025,unemployment_rate,Random Forest,10.210476,13.066084339692022
+Sicilia,ITG1,2024,unemployment_rate,Random Forest,13.290176,15.30851700012943
+Sicilia,ITG1,2025,unemployment_rate,Random Forest,12.477971,13.032452529099816
+Sardegna,ITG2,2024,unemployment_rate,Random Forest,8.52196,9.58020288799696
+Sardegna,ITG2,2025,unemployment_rate,Random Forest,9.532401,7.459168893710238
+Piemonte,ITC1,2024,unemployment_rate,Gradient Boosting,5.495734,5.5730425559836805
+Piemonte,ITC1,2025,unemployment_rate,Gradient Boosting,6.164193,4.906145473232717
+Valle d'Aosta,ITC2,2024,unemployment_rate,Gradient Boosting,3.928906,3.2288766224648673
+Valle d'Aosta,ITC2,2025,unemployment_rate,Gradient Boosting,3.914399,3.2288766224648673
+Liguria,ITC3,2024,unemployment_rate,Gradient Boosting,5.516883,5.080711676559847
+Liguria,ITC3,2025,unemployment_rate,Gradient Boosting,4.710665,4.5607208012479
+Lombardia,ITC4,2024,unemployment_rate,Gradient Boosting,3.738833,2.7013022050783415
+Lombardia,ITC4,2025,unemployment_rate,Gradient Boosting,3.005698,2.6552198895042074
+Bolzano,ITD1,2024,unemployment_rate,Gradient Boosting,1.990011,2.6267805276155634
+Bolzano,ITD1,2025,unemployment_rate,Gradient Boosting,1.761196,2.6267805276155634
+Trento,ITD2,2024,unemployment_rate,Gradient Boosting,2.787277,3.223232127203194
+Trento,ITD2,2025,unemployment_rate,Gradient Boosting,2.302378,3.3991465884641214
+Veneto,ITD3,2024,unemployment_rate,Gradient Boosting,3.01116,4.105543906531104
+Veneto,ITD3,2025,unemployment_rate,Gradient Boosting,3.506283,3.8941820145602395
+Friuli-Venezia Giulia,ITD4,2024,unemployment_rate,Gradient Boosting,4.442742,4.222288778418148
+Friuli-Venezia Giulia,ITD4,2025,unemployment_rate,Gradient Boosting,4.684697,4.363374620139615
+Emilia-Romagna,ITD5,2024,unemployment_rate,Gradient Boosting,4.405441,4.616504285408301
+Emilia-Romagna,ITD5,2025,unemployment_rate,Gradient Boosting,4.158524,3.848427469752032
+Toscana,ITE1,2024,unemployment_rate,Gradient Boosting,4.07298,5.053051680671733
+Toscana,ITE1,2025,unemployment_rate,Gradient Boosting,4.387398,4.379737794647927
+Umbria,ITE2,2024,unemployment_rate,Gradient Boosting,4.928276,5.5359788258926645
+Umbria,ITE2,2025,unemployment_rate,Gradient Boosting,4.65474,4.862241104535163
+Marche,ITE3,2024,unemployment_rate,Gradient Boosting,5.194253,4.906145473232717
+Marche,ITE3,2025,unemployment_rate,Gradient Boosting,5.290068,4.906145473232717
+Lazio,ITE4,2024,unemployment_rate,Gradient Boosting,6.402663,5.444889324737512
+Lazio,ITE4,2025,unemployment_rate,Gradient Boosting,5.680821,4.833512164406333
+Abruzzo,ITF1,2024,unemployment_rate,Gradient Boosting,7.212742,7.046432963659361
+Abruzzo,ITF1,2025,unemployment_rate,Gradient Boosting,6.762283,6.813574072965614
+Molise,ITF2,2024,unemployment_rate,Gradient Boosting,8.068182,8.738595990502592
+Molise,ITF2,2025,unemployment_rate,Gradient Boosting,6.356495,7.373168398048539
+Campania,ITF3,2024,unemployment_rate,Gradient Boosting,15.898401,16.686881856649187
+Campania,ITF3,2025,unemployment_rate,Gradient Boosting,14.251343,15.096893948342979
+Puglia,ITF4,2024,unemployment_rate,Gradient Boosting,9.463074,10.151863291711303
+Puglia,ITF4,2025,unemployment_rate,Gradient Boosting,10.27324,8.847494991499213
+Basilicata,ITF5,2024,unemployment_rate,Gradient Boosting,6.943007,6.692655994103175
+Basilicata,ITF5,2025,unemployment_rate,Gradient Boosting,5.510016,6.692655994103175
+Calabria,ITF6,2024,unemployment_rate,Gradient Boosting,13.419249,15.067799793769847
+Calabria,ITF6,2025,unemployment_rate,Gradient Boosting,10.210476,13.161224128484962
+Sicilia,ITG1,2024,unemployment_rate,Gradient Boosting,13.290176,14.929839473137326
+Sicilia,ITG1,2025,unemployment_rate,Gradient Boosting,12.477971,12.485867834908188
+Sardegna,ITG2,2024,unemployment_rate,Gradient Boosting,8.52196,9.70407966866374
+Sardegna,ITG2,2025,unemployment_rate,Gradient Boosting,9.532401,7.524905036261462
+Piemonte,ITC1,2024,employed_thousands,Naive lag-1,1802.701,1748.488
+Piemonte,ITC1,2025,employed_thousands,Naive lag-1,1802.005,1802.701
+Valle d'Aosta,ITC2,2024,employed_thousands,Naive lag-1,55.457,55.114
+Valle d'Aosta,ITC2,2025,employed_thousands,Naive lag-1,55.181,55.457
+Liguria,ITC3,2024,employed_thousands,Naive lag-1,608.75,607.214
+Liguria,ITC3,2025,employed_thousands,Naive lag-1,622.55,608.75
+Lombardia,ITC4,2024,employed_thousands,Naive lag-1,4411.734,4379.43
+Lombardia,ITC4,2025,employed_thousands,Naive lag-1,4439.404,4411.734
+Bolzano,ITD1,2024,employed_thousands,Naive lag-1,253.15,252.892
+Bolzano,ITD1,2025,employed_thousands,Naive lag-1,253.351,253.15
+Trento,ITD2,2024,employed_thousands,Naive lag-1,243.339,239.202
+Trento,ITD2,2025,employed_thousands,Naive lag-1,246.07,243.339
+Veneto,ITD3,2024,employed_thousands,Naive lag-1,2152.548,2155.3
+Veneto,ITD3,2025,employed_thousands,Naive lag-1,2122.387,2152.548
+Friuli-Venezia Giulia,ITD4,2024,employed_thousands,Naive lag-1,511.476,502.945
+Friuli-Venezia Giulia,ITD4,2025,employed_thousands,Naive lag-1,507.921,511.476
+Emilia-Romagna,ITD5,2024,employed_thousands,Naive lag-1,1962.454,1960.754
+Emilia-Romagna,ITD5,2025,employed_thousands,Naive lag-1,2000.364,1962.454
+Toscana,ITE1,2024,employed_thousands,Naive lag-1,1605.543,1563.869
+Toscana,ITE1,2025,employed_thousands,Naive lag-1,1596.479,1605.543
+Umbria,ITE2,2024,employed_thousands,Naive lag-1,356.036,347.298
+Umbria,ITE2,2025,employed_thousands,Naive lag-1,360.714,356.036
+Marche,ITE3,2024,employed_thousands,Naive lag-1,618.07,618.378
+Marche,ITE3,2025,employed_thousands,Naive lag-1,619.062,618.07
+Lazio,ITE4,2024,employed_thousands,Naive lag-1,2334.18,2299.165
+Lazio,ITE4,2025,employed_thousands,Naive lag-1,2337.963,2334.18
+Abruzzo,ITF1,2024,employed_thousands,Naive lag-1,492.962,486.926
+Abruzzo,ITF1,2025,employed_thousands,Naive lag-1,493.869,492.962
+Molise,ITF2,2024,employed_thousands,Naive lag-1,104.361,102.624
+Molise,ITF2,2025,employed_thousands,Naive lag-1,103.595,104.361
+Campania,ITF3,2024,employed_thousands,Naive lag-1,1661.618,1625.21
+Campania,ITF3,2025,employed_thousands,Naive lag-1,1700.347,1661.618
+Puglia,ITF4,2024,employed_thousands,Naive lag-1,1267.421,1257.883
+Puglia,ITF4,2025,employed_thousands,Naive lag-1,1255.071,1267.421
+Basilicata,ITF5,2024,employed_thousands,Naive lag-1,189.679,186.726
+Basilicata,ITF5,2025,employed_thousands,Naive lag-1,192.272,189.679
+Calabria,ITF6,2024,employed_thousands,Naive lag-1,521.004,519.574
+Calabria,ITF6,2025,employed_thousands,Naive lag-1,536.197,521.004
+Sicilia,ITG1,2024,employed_thousands,Naive lag-1,1426.087,1368.837
+Sicilia,ITG1,2025,employed_thousands,Naive lag-1,1434.241,1426.087
+Sardegna,ITG2,2024,employed_thousands,Naive lag-1,571.457,557.12
+Sardegna,ITG2,2025,employed_thousands,Naive lag-1,572.118,571.457
+Piemonte,ITC1,2024,employed_thousands,OLS classica,1802.701,1769.971707168306
+Piemonte,ITC1,2025,employed_thousands,OLS classica,1802.005,1777.7193738558085
+Valle d'Aosta,ITC2,2024,employed_thousands,OLS classica,55.457,95.585620830665
+Valle d'Aosta,ITC2,2025,employed_thousands,OLS classica,55.181,97.05698079179865
+Liguria,ITC3,2024,employed_thousands,OLS classica,608.75,618.0890563595626
+Liguria,ITC3,2025,employed_thousands,OLS classica,622.55,623.2162921304996
+Lombardia,ITC4,2024,employed_thousands,OLS classica,4411.734,4365.656494801871
+Lombardia,ITC4,2025,employed_thousands,OLS classica,4439.404,4380.746786184799
+Bolzano,ITD1,2024,employed_thousands,OLS classica,253.15,341.393607252887
+Bolzano,ITD1,2025,employed_thousands,OLS classica,253.351,342.8913612124984
+Trento,ITD2,2024,employed_thousands,OLS classica,243.339,287.18038426542535
+Trento,ITD2,2025,employed_thousands,OLS classica,246.07,286.57678094325456
+Veneto,ITD3,2024,employed_thousands,OLS classica,2152.548,2126.5356768093334
+Veneto,ITD3,2025,employed_thousands,OLS classica,2122.387,2132.784845032208
+Friuli-Venezia Giulia,ITD4,2024,employed_thousands,OLS classica,511.476,532.1441943903083
+Friuli-Venezia Giulia,ITD4,2025,employed_thousands,OLS classica,507.921,537.5226432929107
+Emilia-Romagna,ITD5,2024,employed_thousands,OLS classica,1962.454,1984.4939957533188
+Emilia-Romagna,ITD5,2025,employed_thousands,OLS classica,2000.364,1990.5162677383332
+Toscana,ITE1,2024,employed_thousands,OLS classica,1605.543,1565.286835529412
+Toscana,ITE1,2025,employed_thousands,OLS classica,1596.479,1575.4576669571024
+Umbria,ITE2,2024,employed_thousands,OLS classica,356.036,370.9470731364295
+Umbria,ITE2,2025,employed_thousands,OLS classica,360.714,373.0881944524772
+Marche,ITE3,2024,employed_thousands,OLS classica,618.07,639.5266312465383
+Marche,ITE3,2025,employed_thousands,OLS classica,619.062,645.8890121256222
+Lazio,ITE4,2024,employed_thousands,OLS classica,2334.18,2294.1105120504085
+Lazio,ITE4,2025,employed_thousands,OLS classica,2337.963,2307.2503802541773
+Abruzzo,ITF1,2024,employed_thousands,OLS classica,492.962,505.92839702614356
+Abruzzo,ITF1,2025,employed_thousands,OLS classica,493.869,516.7218529531469
+Molise,ITF2,2024,employed_thousands,OLS classica,104.361,124.79415135261479
+Molise,ITF2,2025,employed_thousands,OLS classica,103.595,127.53354848702793
+Campania,ITF3,2024,employed_thousands,OLS classica,1661.618,1612.5906433044486
+Campania,ITF3,2025,employed_thousands,OLS classica,1700.347,1622.0267098140569
+Puglia,ITF4,2024,employed_thousands,OLS classica,1267.421,1234.074003823062
+Puglia,ITF4,2025,employed_thousands,OLS classica,1255.071,1242.9048471592441
+Basilicata,ITF5,2024,employed_thousands,OLS classica,189.679,205.8652100034642
+Basilicata,ITF5,2025,employed_thousands,OLS classica,192.272,206.84313136248966
+Calabria,ITF6,2024,employed_thousands,OLS classica,521.004,536.9012696720856
+Calabria,ITF6,2025,employed_thousands,OLS classica,536.197,545.9157479809751
+Sicilia,ITG1,2024,employed_thousands,OLS classica,1426.087,1335.0085045882724
+Sicilia,ITG1,2025,employed_thousands,OLS classica,1434.241,1347.2719181875705
+Sardegna,ITG2,2024,employed_thousands,OLS classica,571.457,586.0335767827778
+Sardegna,ITG2,2025,employed_thousands,OLS classica,572.118,590.8087485120336
+Piemonte,ITC1,2024,employed_thousands,Ridge ML lineare,1802.701,1764.8163873544922
+Piemonte,ITC1,2025,employed_thousands,Ridge ML lineare,1802.005,1805.5833691409493
+Valle d'Aosta,ITC2,2024,employed_thousands,Ridge ML lineare,55.457,68.11982975775425
+Valle d'Aosta,ITC2,2025,employed_thousands,Ridge ML lineare,55.181,74.49636531452848
+Liguria,ITC3,2024,employed_thousands,Ridge ML lineare,608.75,642.3796459045025
+Liguria,ITC3,2025,employed_thousands,Ridge ML lineare,622.55,659.5900685578798
+Lombardia,ITC4,2024,employed_thousands,Ridge ML lineare,4411.734,4363.42273055103
+Lombardia,ITC4,2025,employed_thousands,Ridge ML lineare,4439.404,4396.903382826561
+Bolzano,ITD1,2024,employed_thousands,Ridge ML lineare,253.15,347.63599052411837
+Bolzano,ITD1,2025,employed_thousands,Ridge ML lineare,253.351,349.14632981228976
+Trento,ITD2,2024,employed_thousands,Ridge ML lineare,243.339,288.63628241934384
+Trento,ITD2,2025,employed_thousands,Ridge ML lineare,246.07,288.8037804292213
+Veneto,ITD3,2024,employed_thousands,Ridge ML lineare,2152.548,2180.0175566771977
+Veneto,ITD3,2025,employed_thousands,Ridge ML lineare,2122.387,2185.368178236172
+Friuli-Venezia Giulia,ITD4,2024,employed_thousands,Ridge ML lineare,511.476,544.7892493883649
+Friuli-Venezia Giulia,ITD4,2025,employed_thousands,Ridge ML lineare,507.921,558.3743288968026
+Emilia-Romagna,ITD5,2024,employed_thousands,Ridge ML lineare,1962.454,1994.912517533936
+Emilia-Romagna,ITD5,2025,employed_thousands,Ridge ML lineare,2000.364,1998.8294294413176
+Toscana,ITE1,2024,employed_thousands,Ridge ML lineare,1605.543,1590.2227531446458
+Toscana,ITE1,2025,employed_thousands,Ridge ML lineare,1596.479,1638.8621596567993
+Umbria,ITE2,2024,employed_thousands,Ridge ML lineare,356.036,362.5607924714018
+Umbria,ITE2,2025,employed_thousands,Ridge ML lineare,360.714,380.41072626960374
+Marche,ITE3,2024,employed_thousands,Ridge ML lineare,618.07,649.6860699664853
+Marche,ITE3,2025,employed_thousands,Ridge ML lineare,619.062,657.0425311117144
+Lazio,ITE4,2024,employed_thousands,Ridge ML lineare,2334.18,2316.293651444854
+Lazio,ITE4,2025,employed_thousands,Ridge ML lineare,2337.963,2366.1715991722012
+Abruzzo,ITF1,2024,employed_thousands,Ridge ML lineare,492.962,518.7537144613079
+Abruzzo,ITF1,2025,employed_thousands,Ridge ML lineare,493.869,553.1657705084151
+Molise,ITF2,2024,employed_thousands,Ridge ML lineare,104.361,90.55689831403856
+Molise,ITF2,2025,employed_thousands,Ridge ML lineare,103.595,114.206202157127
+Campania,ITF3,2024,employed_thousands,Ridge ML lineare,1661.618,1635.2700446219776
+Campania,ITF3,2025,employed_thousands,Ridge ML lineare,1700.347,1673.1726683776321
+Puglia,ITF4,2024,employed_thousands,Ridge ML lineare,1267.421,1276.9393078553592
+Puglia,ITF4,2025,employed_thousands,Ridge ML lineare,1255.071,1305.1547262067613
+Basilicata,ITF5,2024,employed_thousands,Ridge ML lineare,189.679,189.44969719743938
+Basilicata,ITF5,2025,employed_thousands,Ridge ML lineare,192.272,201.55679179919173
+Calabria,ITF6,2024,employed_thousands,Ridge ML lineare,521.004,546.1646185428328
+Calabria,ITF6,2025,employed_thousands,Ridge ML lineare,536.197,571.1263290572113
+Sicilia,ITG1,2024,employed_thousands,Ridge ML lineare,1426.087,1379.0663799830759
+Sicilia,ITG1,2025,employed_thousands,Ridge ML lineare,1434.241,1440.504159490151
+Sardegna,ITG2,2024,employed_thousands,Ridge ML lineare,571.457,598.4881991347415
+Sardegna,ITG2,2025,employed_thousands,Ridge ML lineare,572.118,619.872976684682
+Piemonte,ITC1,2024,employed_thousands,ElasticNet ML lineare,1802.701,1766.8683343781422
+Piemonte,ITC1,2025,employed_thousands,ElasticNet ML lineare,1802.005,1806.7993653704382
+Valle d'Aosta,ITC2,2024,employed_thousands,ElasticNet ML lineare,55.457,62.09461462651461
+Valle d'Aosta,ITC2,2025,employed_thousands,ElasticNet ML lineare,55.181,68.12501615506073
+Liguria,ITC3,2024,employed_thousands,ElasticNet ML lineare,608.75,650.2133927720745
+Liguria,ITC3,2025,employed_thousands,ElasticNet ML lineare,622.55,667.2377194189776
+Lombardia,ITC4,2024,employed_thousands,ElasticNet ML lineare,4411.734,4343.134272695398
+Lombardia,ITC4,2025,employed_thousands,ElasticNet ML lineare,4439.404,4376.314349478643
+Bolzano,ITD1,2024,employed_thousands,ElasticNet ML lineare,253.15,360.4082880773244
+Bolzano,ITD1,2025,employed_thousands,ElasticNet ML lineare,253.351,361.51534149726206
+Trento,ITD2,2024,employed_thousands,ElasticNet ML lineare,243.339,295.3244113800956
+Trento,ITD2,2025,employed_thousands,ElasticNet ML lineare,246.07,295.1844484071562
+Veneto,ITD3,2024,employed_thousands,ElasticNet ML lineare,2152.548,2177.232977503142
+Veneto,ITD3,2025,employed_thousands,ElasticNet ML lineare,2122.387,2182.6221943399114
+Friuli-Venezia Giulia,ITD4,2024,employed_thousands,ElasticNet ML lineare,511.476,550.4926874792357
+Friuli-Venezia Giulia,ITD4,2025,employed_thousands,ElasticNet ML lineare,507.921,563.896134008911
+Emilia-Romagna,ITD5,2024,employed_thousands,ElasticNet ML lineare,1962.454,1996.7359489472783
+Emilia-Romagna,ITD5,2025,employed_thousands,ElasticNet ML lineare,2000.364,2000.541392845788
+Toscana,ITE1,2024,employed_thousands,ElasticNet ML lineare,1605.543,1592.4951537053862
+Toscana,ITE1,2025,employed_thousands,ElasticNet ML lineare,1596.479,1640.6441533810994
+Umbria,ITE2,2024,employed_thousands,ElasticNet ML lineare,356.036,362.743226736711
+Umbria,ITE2,2025,employed_thousands,ElasticNet ML lineare,360.714,380.37436117857396
+Marche,ITE3,2024,employed_thousands,ElasticNet ML lineare,618.07,652.8057915929971
+Marche,ITE3,2025,employed_thousands,ElasticNet ML lineare,619.062,660.0676529251231
+Lazio,ITE4,2024,employed_thousands,ElasticNet ML lineare,2334.18,2317.1748305749934
+Lazio,ITE4,2025,employed_thousands,ElasticNet ML lineare,2337.963,2366.6854151707935
+Abruzzo,ITF1,2024,employed_thousands,ElasticNet ML lineare,492.962,522.095411206929
+Abruzzo,ITF1,2025,employed_thousands,ElasticNet ML lineare,493.869,556.6329026710355
+Molise,ITF2,2024,employed_thousands,ElasticNet ML lineare,104.361,83.1356897679467
+Molise,ITF2,2025,employed_thousands,ElasticNet ML lineare,103.595,106.67399450249263
+Campania,ITF3,2024,employed_thousands,ElasticNet ML lineare,1661.618,1635.1671527814483
+Campania,ITF3,2025,employed_thousands,ElasticNet ML lineare,1700.347,1672.7213231650885
+Puglia,ITF4,2024,employed_thousands,ElasticNet ML lineare,1267.421,1277.5698504221348
+Puglia,ITF4,2025,employed_thousands,ElasticNet ML lineare,1255.071,1305.8647833719062
+Basilicata,ITF5,2024,employed_thousands,ElasticNet ML lineare,189.679,188.51187911202896
+Basilicata,ITF5,2025,employed_thousands,ElasticNet ML lineare,192.272,200.33738093503393
+Calabria,ITF6,2024,employed_thousands,ElasticNet ML lineare,521.004,548.5584112160477
+Calabria,ITF6,2025,employed_thousands,ElasticNet ML lineare,536.197,573.7761152516714
+Sicilia,ITG1,2024,employed_thousands,ElasticNet ML lineare,1426.087,1381.2405304438503
+Sicilia,ITG1,2025,employed_thousands,ElasticNet ML lineare,1434.241,1442.2622826153245
+Sardegna,ITG2,2024,employed_thousands,ElasticNet ML lineare,571.457,600.5713068702489
+Sardegna,ITG2,2025,employed_thousands,ElasticNet ML lineare,572.118,621.8554641364583
+Piemonte,ITC1,2024,employed_thousands,Random Forest,1802.701,1850.2716219261513
+Piemonte,ITC1,2025,employed_thousands,Random Forest,1802.005,1861.4944639006103
+Valle d'Aosta,ITC2,2024,employed_thousands,Random Forest,55.457,65.23752373513152
+Valle d'Aosta,ITC2,2025,employed_thousands,Random Forest,55.181,66.54639222337104
+Liguria,ITC3,2024,employed_thousands,Random Forest,608.75,633.7642112395708
+Liguria,ITC3,2025,employed_thousands,Random Forest,622.55,633.7642112395708
+Lombardia,ITC4,2024,employed_thousands,Random Forest,4411.734,4076.5603725314427
+Lombardia,ITC4,2025,employed_thousands,Random Forest,4439.404,4076.5603725314427
+Bolzano,ITD1,2024,employed_thousands,Random Forest,253.15,335.0170203065768
+Bolzano,ITD1,2025,employed_thousands,Random Forest,253.351,337.6937567065767
+Trento,ITD2,2024,employed_thousands,Random Forest,243.339,243.33636134047626
+Trento,ITD2,2025,employed_thousands,Random Forest,246.07,244.6101811642136
+Veneto,ITD3,2024,employed_thousands,Random Forest,2152.548,2181.741677683406
+Veneto,ITD3,2025,employed_thousands,Random Forest,2122.387,2246.2626349865795
+Friuli-Venezia Giulia,ITD4,2024,employed_thousands,Random Forest,511.476,505.4743300021757
+Friuli-Venezia Giulia,ITD4,2025,employed_thousands,Random Forest,507.921,509.43557648709657
+Emilia-Romagna,ITD5,2024,employed_thousands,Random Forest,1962.454,2140.887570931041
+Emilia-Romagna,ITD5,2025,employed_thousands,Random Forest,2000.364,2155.2852696477084
+Toscana,ITE1,2024,employed_thousands,Random Forest,1605.543,1609.8404036505044
+Toscana,ITE1,2025,employed_thousands,Random Forest,1596.479,1637.3056297648623
+Umbria,ITE2,2024,employed_thousands,Random Forest,356.036,327.6681397108226
+Umbria,ITE2,2025,employed_thousands,Random Forest,360.714,328.974112451876
+Marche,ITE3,2024,employed_thousands,Random Forest,618.07,633.0292507120818
+Marche,ITE3,2025,employed_thousands,Random Forest,619.062,635.4221978898596
+Lazio,ITE4,2024,employed_thousands,Random Forest,2334.18,2574.3768644512243
+Lazio,ITE4,2025,employed_thousands,Random Forest,2337.963,2570.217300034558
+Abruzzo,ITF1,2024,employed_thousands,Random Forest,492.962,487.05398089401126
+Abruzzo,ITF1,2025,employed_thousands,Random Forest,493.869,489.5820470979796
+Molise,ITF2,2024,employed_thousands,Random Forest,104.361,91.121787261916
+Molise,ITF2,2025,employed_thousands,Random Forest,103.595,88.78678996276513
+Campania,ITF3,2024,employed_thousands,Random Forest,1661.618,1625.2182446966083
+Campania,ITF3,2025,employed_thousands,Random Forest,1700.347,1697.5331341204178
+Puglia,ITF4,2024,employed_thousands,Random Forest,1267.421,1270.315408344667
+Puglia,ITF4,2025,employed_thousands,Random Forest,1255.071,1274.472165833556
+Basilicata,ITF5,2024,employed_thousands,Random Forest,189.679,191.58703173219
+Basilicata,ITF5,2025,employed_thousands,Random Forest,192.272,192.78305857187263
+Calabria,ITF6,2024,employed_thousands,Random Forest,521.004,510.81697068709633
+Calabria,ITF6,2025,employed_thousands,Random Forest,536.197,510.96571043312804
+Sicilia,ITG1,2024,employed_thousands,Random Forest,1426.087,1419.2230793133529
+Sicilia,ITG1,2025,employed_thousands,Random Forest,1434.241,1541.6302648751791
+Sardegna,ITG2,2024,employed_thousands,Random Forest,571.457,566.840717449384
+Sardegna,ITG2,2025,employed_thousands,Random Forest,572.118,589.9504580828502
+Piemonte,ITC1,2024,employed_thousands,Gradient Boosting,1802.701,1811.800554492859
+Piemonte,ITC1,2025,employed_thousands,Gradient Boosting,1802.005,1854.267409492845
+Valle d'Aosta,ITC2,2024,employed_thousands,Gradient Boosting,55.457,59.416618346807894
+Valle d'Aosta,ITC2,2025,employed_thousands,Gradient Boosting,55.181,69.60321611409489
+Liguria,ITC3,2024,employed_thousands,Gradient Boosting,608.75,629.0338256882363
+Liguria,ITC3,2025,employed_thousands,Gradient Boosting,622.55,629.0338256882363
+Lombardia,ITC4,2024,employed_thousands,Gradient Boosting,4411.734,4353.981598705651
+Lombardia,ITC4,2025,employed_thousands,Gradient Boosting,4439.404,4353.981598705651
+Bolzano,ITD1,2024,employed_thousands,Gradient Boosting,253.15,300.8133677430337
+Bolzano,ITD1,2025,employed_thousands,Gradient Boosting,253.351,304.21629211753753
+Trento,ITD2,2024,employed_thousands,Gradient Boosting,243.339,244.12340498784198
+Trento,ITD2,2025,employed_thousands,Gradient Boosting,246.07,251.08745293572744
+Veneto,ITD3,2024,employed_thousands,Gradient Boosting,2152.548,2221.9239004445453
+Veneto,ITD3,2025,employed_thousands,Gradient Boosting,2122.387,2276.4359288753863
+Friuli-Venezia Giulia,ITD4,2024,employed_thousands,Gradient Boosting,511.476,515.4253148276897
+Friuli-Venezia Giulia,ITD4,2025,employed_thousands,Gradient Boosting,507.921,521.2433258709863
+Emilia-Romagna,ITD5,2024,employed_thousands,Gradient Boosting,1962.454,2102.8460978472876
+Emilia-Romagna,ITD5,2025,employed_thousands,Gradient Boosting,2000.364,2140.0854998126356
+Toscana,ITE1,2024,employed_thousands,Gradient Boosting,1605.543,1589.9379588175318
+Toscana,ITE1,2025,employed_thousands,Gradient Boosting,1596.479,1639.406828943912
+Umbria,ITE2,2024,employed_thousands,Gradient Boosting,356.036,344.9520486599218
+Umbria,ITE2,2025,employed_thousands,Gradient Boosting,360.714,344.9520486599218
+Marche,ITE3,2024,employed_thousands,Gradient Boosting,618.07,621.177472398072
+Marche,ITE3,2025,employed_thousands,Gradient Boosting,619.062,621.177472398072
+Lazio,ITE4,2024,employed_thousands,Gradient Boosting,2334.18,2331.5777059643024
+Lazio,ITE4,2025,employed_thousands,Gradient Boosting,2337.963,2331.5777059643024
+Abruzzo,ITF1,2024,employed_thousands,Gradient Boosting,492.962,497.9128425141587
+Abruzzo,ITF1,2025,employed_thousands,Gradient Boosting,493.869,497.16573282325476
+Molise,ITF2,2024,employed_thousands,Gradient Boosting,104.361,103.68330969178021
+Molise,ITF2,2025,employed_thousands,Gradient Boosting,103.595,106.79681564178892
+Campania,ITF3,2024,employed_thousands,Gradient Boosting,1661.618,1623.3837034104804
+Campania,ITF3,2025,employed_thousands,Gradient Boosting,1700.347,1736.424312405623
+Puglia,ITF4,2024,employed_thousands,Gradient Boosting,1267.421,1288.2485159645946
+Puglia,ITF4,2025,employed_thousands,Gradient Boosting,1255.071,1288.2485159645946
+Basilicata,ITF5,2024,employed_thousands,Gradient Boosting,189.679,188.78019907408188
+Basilicata,ITF5,2025,employed_thousands,Gradient Boosting,192.272,188.03308938317804
+Calabria,ITF6,2024,employed_thousands,Gradient Boosting,521.004,515.8609768199009
+Calabria,ITF6,2025,employed_thousands,Gradient Boosting,536.197,514.9449573045102
+Sicilia,ITG1,2024,employed_thousands,Gradient Boosting,1426.087,1429.3524388680844
+Sicilia,ITG1,2025,employed_thousands,Gradient Boosting,1434.241,1509.2059300449805
+Sardegna,ITG2,2024,employed_thousands,Gradient Boosting,571.457,559.2406445073923
+Sardegna,ITG2,2025,employed_thousands,Gradient Boosting,572.118,582.8715249463554

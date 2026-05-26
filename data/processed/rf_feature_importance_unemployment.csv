@@ -1,0 +1,8 @@
+feature_group,importance
+unemployment_rate_lag1,0.9319794751208671
+neet_rate_lag1,0.054161899837287655
+gdp_per_employed_lag1,0.007222663501426404
+year,0.002906625600281039
+log_gdp_lag1,0.0014478566908544864
+employed_thousands_lag1,0.001278233555110127
+territory_dummies,0.0010032456941731463
