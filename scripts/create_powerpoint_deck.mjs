@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
 
-const projectRoot = "/Users/simon/Documents/big data prog";
+const projectRoot = "/Users/simon/Documents/data_science /big data prog";
 const threadId = process.env.CODEX_THREAD_ID || `manual-${new Date().toISOString().replace(/[-:T.Z]/g, "").slice(0, 14)}-bdppt`;
 const workspace = path.join(projectRoot, "outputs", threadId, "presentations", "italian-labour-forecast");
 const slidesDir = path.join(workspace, "slides");
@@ -11,7 +11,7 @@ const layoutDir = path.join(workspace, "layout", "final");
 const qaDir = path.join(workspace, "qa");
 const outputDir = path.join(projectRoot, "deliverables");
 const finalPptx = path.join(outputDir, "italian_labour_forecast_policy_deck.pptx");
-const skillDir = "/Users/simon/.codex/plugins/cache/openai-primary-runtime/presentations/26.518.11428/skills/presentations";
+const skillDir = "/Users/simon/.codex/plugins/cache/openai-primary-runtime/presentations/26.521.10419/skills/presentations";
 const nodeBin = "/Users/simon/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node";
 
 const figures = {
@@ -330,6 +330,42 @@ const slides = [
   ctx.addShape(slide, { x: 88, y: 542, w: 1010, h: 76, fill: C.navy, line: ctx.line() });
   ctx.addText(slide, { text: "Raccomandazione: concentrare politiche attive, formazione tecnica e investimenti produttivi dove disoccupazione prevista, alto NEET e basso PIL per occupato si rafforzano.", x: 115, y: 560, w: 950, h: 42, size: 18, color: "#FFFFFF", bold: true, typeface: ctx.fonts.title });
   `),
+  slideModule(16, `
+  base(slide, ctx, "Next steps");
+  title(slide, ctx, "Prossimi sviluppi da implementare", "Il progetto puo evolvere da analisi predittiva a strumento operativo per monitorare e simulare politiche del lavoro.");
+  const steps = [
+    ["1", "Aggiornare e ampliare i dati", "Integrare nuovi anni ISTAT, dati provinciali, settori produttivi, istruzione, imprese attive e investimenti pubblici."],
+    ["2", "Migliorare i modelli", "Testare modelli spazio-temporali e boosting avanzato, mantenendo sempre il confronto con baseline semplici e OLS."],
+    ["3", "Spiegare meglio le previsioni", "Usare SHAP o feature importance locali per capire perche una regione viene classificata come critica."],
+    ["4", "Costruire scenari what-if", "Simulare l'effetto di riduzioni dei NEET, aumento del PIL per occupato o nuove politiche attive sul rischio regionale."],
+    ["5", "Dashboard interattiva", "Pubblicare mappe e ranking regionali aggiornabili, utili per presentare le priorita di intervento in modo immediato."]
+  ];
+  steps.forEach((s, i) => {
+    const x = i < 3 ? 78 : 668;
+    const y = i < 3 ? 172 + i * 128 : 218 + (i - 3) * 150;
+    const color = [C.teal, C.blue, C.coral, C.green, C.violet][i];
+    ctx.addShape(slide, { x, y, w: 58, h: 58, fill: color, line: ctx.line() });
+    ctx.addText(slide, { text: s[0], x, y: y + 9, w: 58, h: 38, size: 28, color: "#FFFFFF", bold: true, align: "center", typeface: ctx.fonts.title });
+    ctx.addText(slide, { text: s[1], x: x + 78, y: y - 2, w: 390, h: 28, size: 20, color: C.navy, bold: true, typeface: ctx.fonts.title });
+    ctx.addText(slide, { text: s[2], x: x + 78, y: y + 32, w: 425, h: 62, size: 14, color: C.ink });
+  });
+  claim(slide, ctx, "Il passo successivo e trasformare il modello in un sistema di monitoraggio: aggiornabile, spiegabile e orientato alle decisioni.");
+  `),
+  slideModule(17, `
+  ctx.addShape(slide, { x: 0, y: 0, w: ctx.W, h: ctx.H, fill: C.navy, line: ctx.line() });
+  ctx.addShape(slide, { x: 0, y: 0, w: ctx.W, h: ctx.H, fill: "linear(10deg, #16213E 0%, #2A9D8F 100%)", line: ctx.line() });
+  ctx.addText(slide, { text: "Grazie per l'attenzione", x: 95, y: 105, w: 900, h: 82, size: 48, color: "#FFFFFF", bold: true, typeface: ctx.fonts.title });
+  ctx.addText(slide, { text: "Previsione di occupazione e disoccupazione regionale in Italia", x: 99, y: 198, w: 880, h: 36, size: 22, color: "#E6F4F1" });
+  ctx.addShape(slide, { x: 92, y: 315, w: 900, h: 156, fill: "#FFFFFF", line: { style: "solid", fill: "#D8DDD2", width: 1 } });
+  ctx.addShape(slide, { x: 92, y: 315, w: 10, h: 156, fill: C.gold, line: ctx.line() });
+  ctx.addText(slide, { text: "Repository GitHub del progetto", x: 130, y: 342, w: 520, h: 30, size: 23, color: C.navy, bold: true, typeface: ctx.fonts.title });
+  ctx.addText(slide, { text: "https://github.com/SimoneMantero/big-data-prog", x: 130, y: 386, w: 760, h: 32, size: 22, color: C.blue, bold: true });
+  ctx.addText(slide, { text: "Per scaricare il progetto:", x: 130, y: 452, w: 280, h: 24, size: 15, color: C.navy, bold: true });
+  ctx.addShape(slide, { x: 130, y: 492, w: 820, h: 54, fill: "#0F172A", line: ctx.line() });
+  ctx.addText(slide, { text: "git clone https://github.com/SimoneMantero/big-data-prog.git", x: 153, y: 509, w: 760, h: 26, size: 18, color: "#FFFFFF" });
+  ctx.addText(slide, { text: "Notebook, dati, funzioni Python, grafici, metriche e PowerPoint finale sono inclusi nella repository.", x: 96, y: 610, w: 900, h: 34, size: 18, color: "#E6F4F1" });
+  ctx.addText(slide, { text: "Simone Mantero", x: 980, y: 620, w: 210, h: 28, size: 18, color: "#FFFFFF", bold: true, align: "right" });
+  `),
 ];
 
 async function main() {
@@ -372,7 +408,7 @@ async function main() {
     "--preview-dir", previewDir,
     "--layout-dir", layoutDir,
     "--contact-sheet", path.join(previewDir, "contact-sheet.png"),
-    "--slide-count", "15",
+    "--slide-count", "17",
   ], {
     cwd: projectRoot,
     encoding: "utf8",
