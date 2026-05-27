@@ -57,7 +57,50 @@ La presentazione PowerPoint finale si trova in:
 - `src/policy.py`: funzioni per indice di rischio, cluster territoriali e azioni consigliate.
 - `reports/figures/`: grafici esportati dal notebook.
 
-## Ambiente
+## Setup dopo aver scaricato la repository
+
+Il virtual environment `.venv` non viene caricato su GitHub, perche e una cartella locale e puo essere ricreato a partire da `requirements.txt`.
+
+Per usare il progetto dopo il download o il clone:
+
+```bash
+git clone https://github.com/SimoneMantero/big-data-prog.git
+cd big-data-prog
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+Per aprire i notebook:
+
+```bash
+jupyter notebook
+```
+
+In alternativa, da VS Code:
+
+```bash
+code .
+```
+
+Poi seleziona l'ambiente Python del progetto:
+
+1. `Cmd + Shift + P`
+2. `Python: Select Interpreter`
+3. scegli `.venv/bin/python`
+
+Nei notebook `.ipynb`, se richiesto, seleziona come kernel lo stesso ambiente `.venv`.
+
+Per aggiornare una copia gia scaricata:
+
+```bash
+git pull
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Ambiente locale
 
 ```bash
 source .venv/bin/activate
